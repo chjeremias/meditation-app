@@ -33,18 +33,6 @@ play.addEventListener("click", () => {
   checkPlaying(song);
 });
 
- //replay.addEventListener("click", function() {
-  //   restartSong(song);
-  // });
-
-
-// const restartSong = song =>{
-//     let currentTime = song.currentTime;
-//     song.currentTime = 0;
-//     console.log("ciao")
-
-// }
-
 //Select Sound
  timeSelect.forEach(option => {
    option.addEventListener("click", function() {
